@@ -1,0 +1,2 @@
+timestamp,inference_time_sec,gpu_memory_used_MB,gpu_memory_total_MB,gpu_load,vram_peak_MB,cpu_percent,ram_used_GB,prompt,image1,image2,merge_mode
+2025-11-24T10:36:39.885112,242.55499839782715,18861.0,23034.0,0.0,17999.01171875,12.8,7.095218658447266,Combine the skier scene and helicopter scene realistically into one composite image. Make the transition seamless.,/content/000000000785.jpg,/content/A-printer-in-the-tail.jpg,horizontal

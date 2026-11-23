@@ -1,0 +1,21 @@
+# Versions below are the ones installed in the team's working environment
+# (taken from the venv's dist-info folders). Only the local editor and the
+# segmentation wrapper are covered; the generative models in the whitepaper
+# (SDXL, FLUX.1, Qwen-Image-Edit, InternVL, LGM) were run on GPU hosts and are
+# not included here.
+
+# Local editor (src/local_editor)
+numpy==1.26.4
+opencv-python==4.11.0.86
+pillow==12.0.0
+rembg==2.0.68
+onnxruntime==1.23.2
+llama-cpp-python==0.3.16   # builds from source; needs a C/C++ toolchain
+# tkinter ships with the standard Python installer (no pip package)
+
+# Interactive segmentation (src/segmentation)
+torch==2.9.1
+torchvision==0.24.1
+matplotlib
+# SAM 2 is not on PyPI; install it from source:
+#   pip install git+https://github.com/facebookresearch/sam2.git

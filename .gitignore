@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Model weights and checkpoints (never committed)
+*.gguf
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.ckpt
+*.t7
+checkpoints/
+
+# Datasets and raw inputs
+data/
+datasets/
+
+# Secrets and local config
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*_token*
+*credentials*
+
+# Editor / OS
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
