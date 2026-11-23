@@ -15,8 +15,14 @@ a design-plus-prototype showcase, not a shipped product.
 
 ![Colour grading result: sky and foliage graded with different recipes](docs/images/hero_color_grading.png)
 
+## Paper
+
+A two-page research-style write-up of the project is in [`paper/canvas360.pdf`](paper/canvas360.pdf)
+(LaTeX source: [`paper/canvas360.tex`](paper/canvas360.tex), references in [`paper/references.bib`](paper/references.bib)).
+
 ## Contents
 
+- [Paper](#paper)
 - [Problem](#problem)
 - [Approach](#approach)
 - [Results](#results)
@@ -223,6 +229,7 @@ What the team's prototypes and measurements show:
 .
 ├── README.md
 ├── LICENSE                      MIT, team code only
+├── paper/                       two-page write-up (LaTeX source, BibTeX, compiled PDF)
 ├── requirements.txt             versions from the team's working environment
 ├── src/
 │   ├── local_editor/            Tkinter editor with a local Llama-3.2-1B command parser
@@ -260,7 +267,7 @@ What the team's prototypes and measurements show:
 - Qwen-Image-Edit: Qwen team, Alibaba. Model card in the project folder.
 - FLUX.1 [dev]: Black Forest Labs. Model card: https://huggingface.co/black-forest-labs/FLUX.1-dev
 - SAM 2: Ravi et al., "SAM 2: Segment Anything in Images and Videos", https://github.com/facebookresearch/sam2
-- Taesiri et al., "Understanding Generative AI Capabilities in Everyday Image Editing Tasks", arXiv:2508.02324. Cited in the whitepaper for the user-request study. The arXiv source is in the project folder (`models_papers/`); this repository does not include it.
+- Taesiri et al., "Understanding Generative AI Capabilities in Everyday Image Editing Tasks", arXiv:2505.16181. Cited in the whitepaper for the user-request study. The arXiv source is in the project folder (`models_papers/`); this repository does not include it.
 - Shi et al., "Learning by Planning: Language-Guided Global Image Editing", the T2ONet method behind `results/metrics/t2onet_fivek_checkpoint_best.json`. Code: https://github.com/jshi31/T2ONet (not included here).
 - MIT-Adobe FiveK dataset (used by the T2ONet checkpoint). Dataset not included.
 - COCO (used for the segmentation and Qwen inputs, not included here).
@@ -271,4 +278,4 @@ Code in `src/` is released under the MIT License (see [LICENSE](LICENSE)).
 Third-party models, datasets and the images in `docs/` and `results/` keep their own
 licences, as listed above.
 
-Team: Shresth Keshari and team, Inter-IIT Tech Meet 14.0.
+Author: Shresth Keshari, Team B76, IIT Bombay (Inter-IIT Tech Meet 14.0).
